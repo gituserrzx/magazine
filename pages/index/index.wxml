@@ -1,0 +1,24 @@
+<!--pages/index/index.wxml-->
+<!-- <d-bigImg img-src="https://ss0.baidu.com/73x1bjeh1BF3odCf/it/u=3899933224,734271981&fm=85&s=6BFA72DA67080F5B80E9A626030020D7" main-title="nima"></d-bigImg>
+<d-imgText img-src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2230167403,4188800858&fm=27&gp=0.jpg" main-title="长路漫漫，唯剑作伴" sub-head="有种轰趴我，以敌人之血祭我大诺克萨斯"></d-imgText>
+<d-pureText main-title="我醒脑危机感时间冻结覅家" sub-head="我价格是不够努力思考过两年半就付款了呢风景嘎工大品牌扣我钱偶偶"></d-pureText>
+<d-nineImg img-group="{{imgGroup}}"  mainTitle="我们使用时四季度房价阿克苏进发的卡拉夫"></d-nineImg> -->
+<!-- <d-video main-title="王者不可阻挡" 
+video-src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" 
+video-id="video2016"
+poster-src="https://upfile2.asqql.com/upfile/2009pasdfasdfic2009s305985-ts/gif_spic/2018-12/2018122511253733911.gif"></d-video> -->
+<!-- <d-tag tag-name="心理" tag-id="3"> </d-tag> -->
+<!-- <d-article type="0" avatar-src="http://img5.imgtn.bdimg.com/it/u=3376969970,2649787693&fm=26&gp=0.jpg" name="张三" num="33"></d-article> -->
+<!-- <d-more ></d-more> -->
+<!-- <d-like is-like="true"></d-like> -->
+<!-- <d-article wx:for='{{articleList}}' article-detail="{{item}}" wx:key="artId"></d-article>  -->
+<d-nav class="nav" bind:nav="onNav" ></d-nav>
+<d-recommend class="recommend" recommend="{{recommend}}" magazine-id="{{magazineId}}"></d-recommend>
+<d-tagList class="tagList" mark-list="{{markList}}">
+    <d-add class="add" slot="before" wx:if="{{magazineId==0}}"></d-add>
+    <view class="dot" slot="after" catch:tap="onCatalog" wx:if="{{magazineId==0}}">●●●</view>
+</d-tagList>
+<d-articleList class='artList' article-list ="{{articleList}}" magazine-id="{{magazineId}}" more="{{getMore}}"></d-articleList>
+<view class="loading-box" wx:if="{{loading}}">
+    <d-loading class="loading"></d-loading>
+</view>

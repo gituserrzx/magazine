@@ -1,0 +1,28 @@
+/* components/loading/cmp.wxss */
+.container{
+    width: 60rpx;
+    height: 60rpx;
+    position: relative;
+}
+.circle{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    border-radius:  50%;
+    animation: change 2s infinite;
+}
+.circle1{
+    animation-delay: 1s
+}
+@keyframes change{
+    0%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(0)
+    }
+    100%{
+        transform: scale(1)
+    }
+}

@@ -1,0 +1,29 @@
+<!--pages/mark/mark.wxml-->
+
+<view class="container">
+    <view class="user-container">
+    <view class="userInfo" >
+        <view class="userName">{{userInfo.nickName}}</view>
+        <view class="avatar-box">
+            <image wx:if="{{isGetInfo}}" class="avatar"src="{{userInfo.avatarUrl}}" />
+            <!-- <button  class="getInfo" wx:else  open-type="getUserInfo" bindgetuserinfo="onGetUserInfo"> 
+                <image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2230167403,4188800858&fm=27&gp=0.jpg"  />
+            </button> -->
+            <d-imgBtn  wx:else class="getInfo"   open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" >
+                <image slot="img" class="login" src="/images/login.png" />
+            </d-imgBtn>
+        </view>
+        
+        
+    </view> 
+    <!-- <d-imgBtn wx:else class="getInfo"img-src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2230167403,4188800858&fm=27&gp=0.jpg" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" ></d-imgBtn> -->
+    
+    <view class="share">
+     <d-imgBtn class="shareBtn" open-type="share"  >
+        <image src="/images/Icon_relay.png" slot="img" class="img" />
+     </d-imgBtn>
+   </view>
+   
+</view>
+<d-articleList article-list='{{likeList}}'  ></d-articleList>
+</view>

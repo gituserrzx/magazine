@@ -1,0 +1,4 @@
+<!--components/more/cmp.wxml-->
+<view class="more-box">
+    <image class="more" bindtap="onTap" src="./image/icon_more.png" />
+</view>

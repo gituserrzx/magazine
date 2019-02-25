@@ -1,0 +1,10 @@
+/* components/bigImg/cmp.wxss */
+.container{
+    margin:0 10rpx;  
+}
+.image{
+    width: 100%;
+}
+.text{
+    margin-top: 20rpx;   
+}

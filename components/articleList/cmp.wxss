@@ -1,0 +1,21 @@
+/* components/articleList/cmp.wxss */
+
+.container{
+    display: inline-block;
+     background-color: rgba(0,0,0,0.1);
+}
+.article{
+    display: block;
+    background-color: #fff;
+    margin:40rpx 25rpx 0 25rpx;
+}
+.noMore{
+   
+    text-align: center;
+    color: #666;
+    margin: 30rpx 0;
+}
+.loading{
+    display: block;
+    margin: 30rpx 320rpx;
+}

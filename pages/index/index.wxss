@@ -1,0 +1,42 @@
+/* pages/index/index.wxss */
+.dot{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10rpx 20rpx;
+    margin: 10rpx 10rpx; 
+    font-size: 28rpx;
+}
+.nav{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 99
+}
+.recommend{
+    margin-top: 100rpx;
+    display: block;
+}
+.loading-box{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 100;
+}
+.loading{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.add{
+    margin: 0 10rpx;
+}
+.artList{
+    
+    display: block;
+    
+}

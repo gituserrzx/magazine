@@ -1,0 +1,37 @@
+<!--components/articleHead/cmp.wxml-->
+<view class="container">
+    <image class="avatar" src="{{articleDetail.mark.avatar}}http://img5.imgtn.bdimg.com/it/u=3376969970,2649787693&fm=26&gp=0.jpg" />
+    <text class="name" >{{articleDetail.mark.people}}</text>
+    <text >等</text>
+    <text class="num" >{{articleDetail.mark.count}}</text>
+    <text >人马克了</text>
+</view>
+    <view class="bg">
+        <d-bigImg wx:if="{{articleDetail.type==0}}" 
+            img-src="{{articleDetail.imgArray[0]}}" main-title="{{articleDetail.mainTitle}}"
+        ></d-bigImg>
+        <d-nineImg wx:elif="{{articleDetail.type==1}}"
+            img-group="{{articleDetail.imgArray}}" main-title="{{articleDetail.mainTitle}}"
+        ></d-nineImg>
+        <d-imgText wx:elif="{{articleDetail.type==2}}"
+            img-src="{{articleDetail.imgArray[0]}}" main-title="{{articleDetail.mainTitle}}" sub-head="{{articleDetail.subHead}}"
+        ></d-imgText>
+        <d-video wx:elif="{{articleDetail.type==3}}"
+            main-title="{{articleDetail.mainTitle}}" video-id="{{articleDetail.video.id}}" video-src="{{articleDetail.video.src}}"
+            duration="{{articleDetail.video.duration}}" poster-src="{{articleDetail.video.poster}}"
+        ></d-video>
+        <d-pureText wx:else main-title="{{articleDetail.mainTitle}}" sub-head="{{articleDetail.subHead}}" ></d-pureText>
+    </view>
+    <view class="tag-box bg">
+        <view class="tag">
+            <d-tag tag-name="{{articleDetail.tag}}"></d-tag>
+        </view>
+        <view class="operate-box">
+        <d-more  class="tag"></d-more>
+        <d-imgBtn class="delay-box" open-type="share">
+            <image class="delay" slot="img" src="/images/Icon_relay.png" />
+        </d-imgBtn>
+        <d-like class="tag" like="{{like}}" bindlike="onLike"></d-like>
+        </view>
+    </view>
+<!-- 1 图文  2九 3vedio 4寸  0 big-->

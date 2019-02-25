@@ -1,0 +1,10 @@
+/* components/pureText/cmp.wxss */
+.container{
+    padding: 20rpx 10rpx;
+}
+
+.subHead{
+    padding-top: 40rpx;
+    font-size: 28rpx;
+    color: #666;
+}

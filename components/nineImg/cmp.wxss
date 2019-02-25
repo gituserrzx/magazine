@@ -1,0 +1,26 @@
+/* components/nineImg/cmp.wxss */
+
+.imgGroup{
+    position: relative;
+    display: flex;
+    width:700rpx;
+    height: 700rpx;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.imgGroup image{
+    width: 31%;
+    height: 31%;
+}
+.num{
+    width: 30rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    position: absolute;
+    padding: 10rpx 20rpx;
+    bottom: 80rpx;
+    right: 80rpx;
+}

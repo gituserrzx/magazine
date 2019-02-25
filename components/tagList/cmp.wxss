@@ -1,0 +1,6 @@
+/* components/tagList/cmp.wxss */
+.container{
+    padding: 0 15rpx 40rpx;
+    background-color: #fff;
+}
+

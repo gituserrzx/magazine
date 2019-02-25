@@ -1,0 +1,17 @@
+<!--components/video/cmp.wxml-->
+<view class="container">
+    <view class="video-place" hidden='{{isPlay}}'
+        bindended="videoEnd"
+    >
+        <video id="{{videoId}}"  class="video" src="{{videoSrc}}" />
+    </view>
+    <view class="poster-cover" hidden="{{!isPlay}}">
+        <image class="image" src="{{posterSrc}}" />
+        <view class="video-control" catchtap="playVideo">
+            <image class="iconImg" src="./image/icon-play.png" />
+            <view class="duration">{{duration}}40</view>
+        </view>
+    </view>
+    <view class="mainTitle">{{mainTitle}}</view>
+    <view class="mask" catch:tap="maskTap" hidden="{{isPlay}}"></view>
+</view>

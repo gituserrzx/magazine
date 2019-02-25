@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "d-tag":"/components/tag/cmp",
+    "d-add":"/components/add/cmp"
+  }
+}
