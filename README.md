@@ -3,47 +3,47 @@
 
 ​	主页面
 
-![image](https://github.com/gituserrzx/magazine/screenshots/blob/master/1551178716139.png)
+![image](https://github.com/gituserrzx/magazine/blob/master/screenshots/1551178716139.png)
 
 ​		分页面
 
-![image](https://github.com/gituserrzx/magazine/screenshots/blob/master/1551178756391.png)
+![image](https://github.com/gituserrzx/magazine/blob/master/screenshots/1551178756391.png)
 
 
 
 页面过渡的css3动画
 
-![image](https://github.com/gituserrzx/magazine/screenshots/blob/master/1551178776657.png)
+![image](https://github.com/gituserrzx/magazine/blob/master/screenshots/1551178776657.png)
 
 
 
 ​		分页面
 
-![image](https://github.com/gituserrzx/magazine/screenshots/blob/master/1551178787469.png)
+![image](https://github.com/gituserrzx/magazine/blob/master/screenshots/1551178787469.png)
 
 
 
 ​		个人主页  可以收藏内容
 
-![image](https://github.com/gituserrzx/magazine/screenshots/blob/master/1551178806927.png)
+![image](https://github.com/gituserrzx/magazine/blob/master/screenshots/1551178806927.png)
 
 
 
 ​			可以订阅 杂志 和 搜索喜欢的内容
 
-![image](https://github.com/gituserrzx/magazine/screenshots/blob/master/1551179186773.png)
+![image](https://github.com/gituserrzx/magazine/blob/master/screenshots/1551179186773.png)
 
 ​		       
 
 ​		视频可播放
 
-![image](https://github.com/gituserrzx/magazine/screenshots/blob/master/1551179214304.png)
+![image](https://github.com/gituserrzx/magazine/blob/master/screenshots/1551179214304.png)
 
 
 
 ​		下拉获取新数据
 
-![image](https://github.com/gituserrzx/magazine/screenshots/blob/master/1551179307433.png)
+![image](https://github.com/gituserrzx/magazine/blob/master/screenshots/1551179307433.png)
 
 ​	   	
 
