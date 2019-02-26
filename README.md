@@ -3,7 +3,7 @@
 
 ​	主页面
 
-![1551178716139](C:\Users\张翔\AppData\Roaming\Typora\typora-user-images\1551178716139.png)
+![1551178716139](https://github.com/gituserrzx/magazine/blob/master/1551178716139.png)
 
 ​		分页面
 
